@@ -1,73 +1,72 @@
 body {
-    background: #0a192f; /* Deep blue background */
+    background: #0d1117; /* Deep dark blue-black background */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
-    color: #e0e0e0; /* Light grey for text */
+    font-family: 'Roboto', sans-serif; /* Keep the modern font */
+    color: #f5f5f5; /* Light grey for text */
 }
 
 .login-container {
-    background: #112240; /* Slightly lighter than the background for contrast */
-    padding: 20px 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-    text-align: center;
+    background: #161b22; /* Very dark navy for the container */
+    padding: 30px 40px; /* Slightly increased padding for spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Slightly deeper shadow */
+    text-align: left; /* Align text to the left to match the image */
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 h2 {
-    margin-bottom: 20px;
-    color: #64ffda; /* Accent color for the heading */
-    font-size: 24px;
-    font-weight: 500;
+    margin-bottom: 25px;
+    color: #ffffff; /* White for the heading */
+    font-size: 22px;
+    font-weight: 600; /* Bolder heading */
 }
 
 .input-field {
     margin-bottom: 20px;
-    text-align: left;
 }
 
 .input-field label {
     display: block;
-    font-size: 14px;
-    color: #a8b2d1; /* Muted text for labels */
-    margin-bottom: 5px;
+    font-size: 16px;
+    color: #9baec8; /* Muted light text for labels */
+    margin-bottom: 8px;
 }
 
 .input-field input {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #233554; /* Border color for inputs */
-    background: #0f2a49; /* Darker background for input fields */
-    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid #2d3c4f; /* Darker border for inputs */
+    background: #0d1117; /* Very dark background for input fields */
+    border-radius: 6px;
     font-size: 16px;
-    color: #e0e0e0; /* Light text inside inputs */
+    color: #e0e0e0; /* Light grey text inside inputs */
 }
 
 .input-field input:focus {
-    border-color: #64ffda; /* Focus state with accent color */
+    border-color: #6ab8f0; /* Light blue on focus */
     outline: none;
-    box-shadow: 0 0 5px rgba(100, 255, 218, 0.5); /* Soft glow on focus */
+    box-shadow: 0 0 6px rgba(106, 184, 240, 0.4); /* Soft blue glow */
 }
 
 .remember-me {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #a8b2d1;
+    color: #9baec8; /* Muted text color */
 }
 
 .login-button {
-    background-color: #64ffda; /* Accent color for the button */
-    color: #0a192f;
+    background-color: #6ab8f0; /* Light blue for the button */
+    color: #0d1117; /* Dark text for contrast */
     border: none;
-    padding: 12px 20px;
+    padding: 12px 0;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
@@ -76,20 +75,21 @@ h2 {
 }
 
 .login-button:hover {
-    background-color: #52e0be; /* Lighter shade on hover */
+    background-color: #5aa3d6; /* Slightly lighter shade on hover */
 }
 
 .form-links {
     margin-top: 20px;
     font-size: 14px;
+    text-align: center; /* Center the links */
 }
 
 .form-links a {
-    color: #64ffda;
+    color: #6ab8f0; /* Light blue for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .form-links a:hover {
-    color: #52e0be; /* Change color on hover */
+    color: #5aa3d6; /* Change to a lighter blue on hover */
 }
